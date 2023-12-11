@@ -7,7 +7,7 @@ app.use(express.json());
 
 app.use('/', (req,res) => {
     return res.status(200).json({
-        message: 'welcome to Full-CICD-Project using AWS, Docker, Jenkins, Github'
+        message: 'welcome to CICD using AWS, Docker, Jenkins, Github'
     })
 })
 
